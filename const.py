@@ -16,11 +16,11 @@ class MethodNameConst:
     GET      = 'get'
     POST     = 'post'
     DELETE   = 'delete'
-
+    
     SIGN_UP_KAKAO             = 'signup_kakao'
     SIGN_UP_KAKAO_CALLBACK    = 'signup_kakao_callback'
     SIGN_UP_KAKAO_GET_PROFILE = 'signup_kakao_get_profile'
-
+    
     SIGN_IN = 'sign_in'
 
 
@@ -29,8 +29,12 @@ class ResponseMsgConst:
     FAIL       = 'FAIL'
     NO_CONTENT = 'NO_CONTENT'
 
+
+class ResponseErrMsgConst:
     KEY_ERROR             = 'KEY_ERROR'
     ATTRIBUTE_ERROR       = 'ATTRIBUTE_ERROR'
     VALUE_ERROR           = 'VALUE_ERROR'
     ATTRIBUTE_VALUE_ERROR = 'ATTRIBUTE/VALUE_ERROR'
     NOT_NULL_ERROR        = 'REQUIRED_FIELD_ERROR'
+    
+    DATABASE_OPERATION_ERROR = 'DATABASE_ERROR'

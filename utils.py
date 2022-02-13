@@ -1,4 +1,9 @@
+from datetime import datetime
+
+
 class CommonUtil:
+    """ 공통 유틸 클래스
+    """
     
     @staticmethod
     def print_log(
@@ -43,3 +48,19 @@ class CommonUtil:
             'err_msg': err_msg,
             'data'   : data
         }
+
+
+class TimeUtils:
+    """ 시간 관련 데이터 편집 유틸
+    """
+    
+    @staticmethod
+    def get_datetime_today():
+        """ 현재 시간 취득 (datetime)
+            param
+             - None
+            
+            return
+             - datetime.today()
+        """
+        return datetime.today()
