@@ -25,9 +25,10 @@ class MethodNameConst:
 
 
 class ResponseMsgConst:
-    SUCCESS    = 'SUCCESS'
-    FAIL       = 'FAIL'
-    NO_CONTENT = 'NO_CONTENT'
+    SUCCESS                  = 'SUCCESS'
+    FAIL                     = 'FAIL'
+    NO_CONTENT               = 'NO_CONTENT'
+    NOT_ALLOWED_REQUEST_TYPE = 'NOT_ALLOWED_REQUEST_TYPE'
 
 
 class ResponseErrMsgConst:

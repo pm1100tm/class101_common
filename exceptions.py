@@ -23,6 +23,6 @@ class PasswordNotCorrectException(Exception):
         super().__init__(f'로그인 정보가 일치하지 않습니다.')
 
 
-class KakaoCallbackError(Exception):
+class RequestsError(Exception):
     def __init__(self, msg=None):
-        super().__init__('카카오 로그인 콜백 에러')
+        super().__init__(msg if msg else 'KAKAO 요청 에러')
