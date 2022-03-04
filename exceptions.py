@@ -26,3 +26,13 @@ class PasswordNotCorrectException(Exception):
 class RequestsError(Exception):
     def __init__(self, msg=None):
         super().__init__(msg if msg else 'KAKAO 요청 에러')
+
+
+class SelfAuthException(Exception):
+    def __init__(self, msg):
+        super().__init__(msg)
+
+
+class DataEncryptoException(Exception):
+    def __init__(self, msg):
+        super().__init__(msg)
