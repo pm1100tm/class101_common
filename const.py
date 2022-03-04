@@ -1,5 +1,8 @@
 class CommonConst:
     BLANK_STR = ''
+    
+    CONTENT_TYPE_X_WWW    = 'application/x-www-form-urlencoded;charset=utf-8'
+    CONTENT_TYPE_APP_JSON = 'application/json'
 
 
 class AppNameConst:
